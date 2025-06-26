@@ -43,6 +43,11 @@ tuple--->collection of homogeneous/heterogenouos kind of elements in order
 denotes with ()
 elements in the tuple are immutable.
 
+sets-->unordered collection of unique elements
+denotes with {}
+we can't change the specific values in sets why means they are unordered.
+
+
 
 
 

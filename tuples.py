@@ -8,3 +8,4 @@
 
 # tp1=(1,2,3,"hi","hello","some",[1,2,3],(4,5,6)) #heterogenous data
 # print(tp1)
+

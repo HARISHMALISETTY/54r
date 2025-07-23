@@ -81,7 +81,7 @@ def prime(num):
         # print("num is not a prime")
         return False
 
-lop=[x for x in range(2,51) if(prime(x))]
+lop=tuple(x for x in range(2,51) if(prime(x)))
 print(lop)
 
 

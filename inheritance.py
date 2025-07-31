@@ -65,25 +65,44 @@
 # ramcharan.TotalAssets()
 # ramcharan.Passets()
 
-class MegaStar:
-    def __init__(self,M_Worth):
-        self.M_Worth=M_Worth
-        print(f"megastar having worth of{self.M_Worth}cr")
-class PowerStar:
-    def __init__(self,P_Worth):
-        self.P_Worth=P_Worth
-        print(f"powerstar having worth of{self.P_Worth}cr")
-class MegaPowerStar():
-    def __init__(self,Mp_Worth,M_Worth,P_Worth):
-       self.Mp_Worth=Mp_Worth      
-       MegaStar.__init__(self,M_Worth)
-       PowerStar.__init__(self,P_Worth)
-    def getMegaPowerStarAssets(self):
-        print(f"{self.Mp_Worth}")
+# class MegaStar:
+#     def __init__(self,M_Worth):
+#         self.M_Worth=M_Worth
+#         print(f"megastar having worth of{self.M_Worth}cr")
+# class PowerStar:
+#     def __init__(self,P_Worth):
+#         self.P_Worth=P_Worth
+#         print(f"powerstar having worth of{self.P_Worth}cr")
+# class MegaPowerStar(MegaStar,PowerStar):
+#     def __init__(self,Mp_Worth,M_Worth,P_Worth):
+#        self.Mp_Worth=Mp_Worth      
+#        MegaStar.__init__(self,M_Worth)
+#        PowerStar.__init__(self,P_Worth)
+#     def getMegaPowerStarAssets(self):
+#         print(f"{self.Mp_Worth}")
+#     def TotalAssets(self):
+#         print(f"RAM CHARAN HAVING OVERALL OF {self.M_Worth+self.Mp_Worth+self.P_Worth} cr")
+# rc=MegaPowerStar(Mp_Worth=150,M_Worth=100,P_Worth=100)
+# rc.getMegaPowerStarAssets()
+# rc.TotalAssets()
 
-rc=MegaPowerStar(Mp_Worth=150,M_Worth=100,P_Worth=100)
-# jc=MegaPowerStar(Mp_Worth=150,M_Worth=100,P_Worth=100)
-rc.getMegaPowerStarAssets()
 
 
 
+#method overriding--> replacing or changing the logic of method from superclass in subclass is called method overriding.
+#method overriding can be applicable only when inheritance happens otherwise it won't applicable.
+
+class Vehicle:
+    def speed(self):
+        print("vehicle speed is normal")
+class Car(Vehicle):
+    def speed(self):
+        print("car speed is 120kmph")
+class Cycle(Vehicle):
+    def speed(self):
+        print("cycle speed is 20kmph")
+car=Car()
+cycle=Cycle()
+
+car.speed()
+cycle.speed()

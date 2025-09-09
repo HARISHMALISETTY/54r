@@ -95,16 +95,13 @@ import copy
 
 
 
-x=[1,2,3,[4,5,6,[1,2,3,[1,2,3]]],[5,6,7]]
-sum=0
-for i in x:
-    if isinstance(i,list):
-        for j in i:
-            sum+=j
-    else:
-        sum+=i
-print(sum)
-
-# x=[1,2,3]
-# op=isinstance(x,list)
-# print(op)
+x=[1,2,3,[4,5,6,[1,2,3,[1,2,3,[4,5,6,[7,8,9,[10,11,12]]]]]],[5,6,7]]
+def nestedSum(x):
+    sum=0
+    for i in x:
+        if isinstance(i,list):
+            sum+=nestedSum(i)
+        else:
+            sum+=i
+    return sum
+print(nestedSum(x))

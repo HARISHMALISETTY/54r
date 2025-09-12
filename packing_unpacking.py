@@ -33,13 +33,25 @@
 
 # print(op)
 
-str='cat'
-a,b,c=str
-print(a)
-print(b)
-print(c)
+# str='cat'
+# a,b,c=str
+# print(a)
+# print(b)
+# print(c)
 
-#swapping
-a,b=1,2
-a,b=b,a 
-print(a,b)
+# #swapping
+# a,b=1,2
+# a,b=b,a 
+# print(a,b)
+
+
+tuple()
+
+
+
+
+
+
+
+
+

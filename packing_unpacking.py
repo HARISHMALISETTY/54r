@@ -15,7 +15,7 @@
 # list2=[9,10,11]
 
 # # op=list1+list2
-# # print(op)
+# # print(op)   
 # op=[*list1,*list2]
 # print(op)
 
@@ -45,7 +45,6 @@
 # print(a,b)
 
 
-tuple()
 
 
 

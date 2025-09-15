@@ -91,10 +91,6 @@ ip1=[1,2,3,4,5,6,7,8,9,10]
 op4=map(lambda x:x%2==0,ip1)
 print(list(op4))
 
-# 1.motivativing about reviews
-# 2.pushing to apply for jobs
-# 3.able to solve issues/concerns of the students
-# 4.one to one interation
-# 5.more patience and positive attitude
+
 
 

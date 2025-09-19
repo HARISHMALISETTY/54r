@@ -186,7 +186,7 @@ from functools import reduce
 # # 5-->x=39 
 # #by default x value is first element in the list
 
-li=[1,4,7,9,0]
-op=14790
-op2=reduce(lambda x,y:x*10+y,li)
-print(op2)
+# li=[1,4,7,9,0]
+# op=14790
+# op2=reduce(lambda x,y:x*10+y,li)
+# print(op2)
